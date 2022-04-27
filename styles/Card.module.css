@@ -1,0 +1,40 @@
+.cards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image:url("../public/images/fundoabstrato.png"); ;
+  background-size: cover;
+  width: 13rem;
+  padding: 1rem;
+  margin: .7rem;
+  height: 0 auto;
+  border-radius: 1rem;
+  box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.5);
+}
+
+.cards p{
+  margin: 1rem;
+  background:var(--vermelho);
+  color: #fff;
+  padding: .3rem .5rem;
+  border-radius: 10px;
+}
+
+.title{
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+
+.btn{
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  background:#3b61aa ;
+  color: #FFF;
+  padding: 0.4rem;
+  border-radius: 10px;
+  width: 8rem;
+  font-size: 16px;
+  font-weight: 400;
+}

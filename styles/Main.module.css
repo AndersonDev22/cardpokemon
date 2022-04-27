@@ -1,0 +1,9 @@
+.main{
+  /* border: 2px solid black; */
+  background: #7ddafc;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  padding: 3px 10px;
+  min-height: 90vh;
+}
